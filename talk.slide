@@ -1,25 +1,19 @@
-Go: A Practical Start Guide
-23 March 2016
+Go: En introduksjon
+22 April 2016
 
-Jud White
-@judson_white
-https://github.com/judwhite
+Kristoffer Berdal
+Fryktelig mye av innholdet er stjålet direkte fra https://github.com/judwhite :-D
 
-* Slides Available
-
-- [[https://github.com/judwhite/talks-edgeatx]]
-
+* Go!
 .image images/gophercloud.png 470 _
-
 .caption _The_Go_gopher_was_designed_by_Renée_French_
 
-* This Talk
+* Den store planen
 
 - Language Features
-- Resources & Community
-- Tools
-- Writing an HTTP Server
-- Concurrency Demo
+- Ressurser og miljø
+- Verktøy
+- Demo: Vi lager en webserver med net/http
 
 * Questions?
 
@@ -103,13 +97,8 @@ Online
 
 - Slack: [[https://gophersinvite.herokuapp.com]]
 - IRC: `irc.freenode.net` `#go-nuts`
+- Go Forum: [[https://forum.golangbridge.org]]
 - Google Groups: [[https://groups.google.com/forum/#!forum/golang-nuts][golang-nuts]]
-
-Meetups
-
-- [[http://www.meetup.com/atxgolang][Austin Go Language User Group]] - April 20, Umbel
-- [[http://www.meetup.com/North-Austin-Golang-Meetup][North Austin Golang Meetup]] - March 29, TechRanch
-- [[https://gophercon.com][GopherCon]] - July 11-13, Denver, CO
 
 * Tools
 
@@ -337,6 +326,8 @@ Databases:
 
 - [[https://golang.org/pkg/database/sql/#pkg-examples]]
 - [[https://github.com/golang/go/wiki/SQLDrivers]] (alexbrainman/odbc for MS SQL Server)
+- [[https://github.com/jmoiron/sqlx]]
+- [[http://jmoiron.github.io/sqlx/]] (Intro til jmoiron/sqlx)
 - [[https://github.com/go-gorp/gorp]]
 - [[https://github.com/jinzhu/gorm]]
 
@@ -365,4 +356,5 @@ Testing:
 
 Structured Logging:
 
+Bruk den innebyge `log` pakken helst, men det finnes mange alternativer:
 - [[https://github.com/Sirupsen/logrus]]
